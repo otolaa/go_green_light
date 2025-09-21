@@ -1,5 +1,7 @@
 # Application Greenlight
 
+rename `.env.example` on `.env` and update settings
+
 ```
 go mod init
 go mod tidy
