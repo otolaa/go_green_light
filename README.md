@@ -3,7 +3,7 @@
 ```
 go mod init
 go mod tidy
-go run .
+go run ./cmd/api
 ```
 
 ## Point API and REST 👾
@@ -60,7 +60,7 @@ Makefile — инструкции по автоматизации частых �
 
 ```
 killall -9 go
-$ go run ./cmd/api
+go run ./cmd/api
 ```
 
 
